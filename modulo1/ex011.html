@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../logo/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em diversos tamanhos de tela de dispositivo, ou aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="../midia/foto-p.png" type="image/png"> <!--Para carregar a imagem em P caso se utilize um tamanho de tela menor que 750-->
+        <source media="(max-width: 1050px)" srcset="../midia/foto-m.png" type="image/png"> <!--Para carregar a imagem em M caso se utilize um tamanho de tela menor que 1050-->
+        <img src="../midia/foto-g.png" alt="Imagem Grande">
+    </picture>
+    <h2>Reproduzindo Audio</h2>
+    <audio src="midia/Shine On - Jeremy Black.mp3" autoplay controls preload="metadata"></audio>
+</body>
+</html>
