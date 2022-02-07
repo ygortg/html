@@ -6,13 +6,9 @@
     padding: 0px;
 }
 
-body{
-
-}
-
 a{
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
     color: white;
 }
 
@@ -45,7 +41,7 @@ article{
 }
 
 article > p{
-    padding: 15px;
+    padding: 20px;
     margin: 10px;
     font-size: 3.5vw;
     line-height: 2em;
@@ -53,34 +49,35 @@ article > p{
 
 section#fundo1{
     padding: 15px;
-    margin: 10px;
     color: white;
     font-size: 3.5vw;
     line-height: 2em;
-    background: black url('imagens/pexels-singkham-1108572.jpg') no-repeat scroll;
+    background: black url('imagens/pexels-singkham-1108572.jpg') left center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
 }
 
 section#fundo1 > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 1px black;
 }
 
 section#fundo2{
     padding: 15px;
-    margin: 10px;
     color: white;
     font-size: 3.5vw;
     line-height: 2em;
-    background: black url('imagens/pexels-lisa-fotios-1036372.jpg') no-repeat scroll;
+    background: black url('imagens/pexels-karolina-grabowska-4195330.jpg') right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
 }
 
-section#fundo2{
+section#fundo2 > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.363);
 }
 
 footer{
