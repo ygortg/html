@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+header > h1{
+    font-size: 10vw;
+    font-size: 3em;
+    padding: 10px;
+}
+
+header > p{
+    padding: 10px;
+}
+
+article{
+    text-align: left;
+    padding: 10px;
+    font-family: 'Sriracha', Georgia, 'Times New Roman', Times, serif;
+}
+
+article > p{
+    padding: 15px;
+    margin: 10px;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+section#fundo1{
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    font-size: 3.5vw;
+    line-height: 2em;
+    background: black url('imagens/pexels-singkham-1108572.jpg') no-repeat scroll;
+    background-size: cover;
+}
+
+section#fundo1 > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+section#fundo2{
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    font-size: 3.5vw;
+    line-height: 2em;
+    background: black url('imagens/pexels-lisa-fotios-1036372.jpg') no-repeat scroll;
+    background-size: cover;
+}
+
+section#fundo2{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
